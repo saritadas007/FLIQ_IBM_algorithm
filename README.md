@@ -18,8 +18,8 @@ The repository includes:
        - Step-by-step construction of the Deutsch circuit
        - Oracle implementations and analysis
        - Results interpretation
-- 🧪 A local test script file --> test_deutsch.py
-       This script tests four oracle functions (constant and balanced) using Qiskit's AerSimulator to verify the Deutsch algorithm behavior.
+- 🧪 A local test script file --> deutsch_test.py
+       This script tests four oracle functions (constant and balanced) using Qiskit's AerSimulator to verify the Deutsch algorithm behaviour.
        **How to use**
         # Install dependencies
         
@@ -27,7 +27,7 @@ The repository includes:
         !pip install pylatexenc
         !pip install qiskit-aer
         ## Run the script
-        python test_deutsch.py
+        python deutsch_test.py
         ### Expected output
         Constant f(x)=0: {'0': 1000}
         Constant f(x)=1: {'0': 1000}
